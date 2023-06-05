@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Profile Card</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="header">
+          <img src="" alt="user Image" id="userImage" />
+          <h3 id="fullname"></h3>
+        </div>
+        <div class="contentBody">
+          <div class="detailsContainer">
+            <label for="age">Age:</label>
+            <p id="age"></p>
+          </div>
+          <div class="detailsContainer">
+            <label for="phoneNumber">Phone Number:</label>
+            <i class="fa-solid fa-phone"></i>
+            <p id="phoneNumber"></p>
+          </div>
+          <div class="detailsContainer">
+            <label for="gender">Gender:</label>
+            <p id="gender"></p>
+          </div>
+          <div class="detailsContainer">
+            <label for="email">Email:</label>
+            <i class="fa-solid fa-envelope"></i>
+            <p id="email"></p>
+          </div>
+          <div class="detailsContainer">
+            <label for="address">Address:</label>
+            <i class="fa-solid fa-location-dot"></i>
+            <p id="address"></p>
+          </div>
+        </div>
+      </div>
+      <button type="button" id="getNextUser">Get Next User</button>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
